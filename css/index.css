@@ -137,9 +137,18 @@ body {
 html {
   font-size: 62.5%;
 }
+h1,
+h2 {
+  font-family: arial;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
 body {
   font-size: 1.6rem;
   line-height: 1.5rem;
+}
+header {
+  padding-bottom: 4%;
 }
 nav {
   display: flex;
@@ -161,13 +170,13 @@ nav {
   display: flex;
 }
 .left-intro {
-  width: 35%;
-  margin-right: 5%;
+  width: 60%;
+  margin-right: 30%;
   display: flex;
   justify-content: flex-end;
 }
 .left-intro img {
-  width: 50%;
+  width: 40%;
 }
 h1 {
   font-size: center;
@@ -183,6 +192,11 @@ h1 {
 .big-container {
   display: flex;
   margin: 3% 0;
+}
+.container-two {
+  display: flex;
+  margin: 3% 0;
+  padding: 0 0 5% 5%;
 }
 .text {
   width: 90%;
