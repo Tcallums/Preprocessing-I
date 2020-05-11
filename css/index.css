@@ -2,6 +2,13 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Barlow Condensed SemiBold'), local('BarlowCondensed-SemiBold'), url(https://fonts.gstatic.com/s/barlowcondensed/v4/HTxwL3I-JCGChYJ8VI-L6OO_au7B4873_3E.ttf) format('truetype');
+}
 html,
 body,
 div,
@@ -163,8 +170,9 @@ nav {
 }
 .links a {
   text-decoration: none;
-  color: green;
   font-size: 1.5rem;
+  color: #50C7C7;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 .intro {
   display: flex;
@@ -192,6 +200,7 @@ h1 {
 .big-container {
   display: flex;
   margin: 3% 0;
+  padding: 0 0 5% 5%;
 }
 .container-two {
   display: flex;
@@ -203,4 +212,10 @@ h1 {
   margin: 0 auto;
   border-bottom: 1px solid gray;
   border-top: 1px solid gray;
+}
+.personal {
+  padding: 0 0 5% 5%;
+}
+ul {
+  list-style-type: square;
 }

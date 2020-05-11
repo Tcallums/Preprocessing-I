@@ -3,6 +3,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -52,6 +53,10 @@ table {
 * {
 	box-sizing: border-box;	
 }
+//Variables
+@main-color: #50C7C7;
+@main-font:'Barlow Condensed', sans-serif;
+
 
 html, body {
 	height: 100%;
@@ -84,8 +89,10 @@ nav {
 }
 .links a {
 	text-decoration: none;
-	color: green;
 	font-size: 1.5rem;
+	color: @main-color;
+	font-family: @main-font;
+	
 }
 
 .intro {
@@ -115,7 +122,9 @@ h1 {
 .big-container {
 	display: flex;
 	margin: 3% 0;
+	padding: 0 0 5% 5%;
 }
+
 .container-two {
 	display: flex;
 	margin: 3% 0;
@@ -126,4 +135,10 @@ h1 {
 	margin: 0 auto;
 	border-bottom: 1px solid gray;
 	border-top: 1px solid gray;
+}
+.personal {
+	padding: 0 0 5% 5%;
+}
+ul {
+	list-style-type: square;
 }
